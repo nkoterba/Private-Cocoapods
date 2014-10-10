@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CronExpression"
-  s.version      = “0.0.3”
+  s.version      = "0.0.3"
   s.summary      = "Cocoa/iOS library to parse and calculate the next run date of a CRON expression"
 
   s.description  = <<-DESC
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author       = { "nkoterba" => "nathan.koterba@gmail.com", "Tim King" => "tim@angrymango.com" }
   s.platform     = :ios, '5.0'
-  s.source       = { :git => "https://github.com/nkoterba/CronExpression.git", :tag => “0.0.3” }
+  s.source       = { :git => "https://github.com/nkoterba/CronExpression.git", :tag => "0.0.3" }
   s.source_files  = 'libCronExpression/*.{h,m}'
   
   s.requires_arc = true
